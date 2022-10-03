@@ -114,10 +114,11 @@ public class DATABASE_CONSOLE {
 
                 }
 
-                /*if (dbRequest.equals("find -n")){
+                if (dbRequest.equals("find -n")){
 
                     System.out.print("\n>>> ");
                     String nFind = scanner.nextLine();
+                    System.out.println();
 
                     List<String[]> allRows = null;
 
@@ -131,7 +132,7 @@ public class DATABASE_CONSOLE {
 
                     System.out.println(Arrays.toString(allRows.get(Integer.parseInt(nFind))));
 
-                } */
+                }
 
                 if (dbRequest.equals("find -h")){
                     System.out.println("No information now.");
